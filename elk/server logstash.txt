@@ -1,4 +1,4 @@
-#服务端的 logstash
+﻿#服务端的 logstash
 #如果没有使用消息中间件。比如没有使用redis，那个服务端不需要有logstash，客户端的logstash直接output给elasticsearch，
 #但是这里用到了redis，由于客户端的logstash是output给redis,所以这里服务端的logstash需要从redis取数据出来，
 #logstash同一个服务器可以启动多个实例。具体命令如下
